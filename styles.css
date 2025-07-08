@@ -255,38 +255,6 @@ nav .right a:hover {
   object-fit: cover;
 }
 
-@media (max-width: 1080px) {
-  .card-section {
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    margin-bottom: 100px;
-  }
-
-  .project-card {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    max-width: 400px;
-  }
-
-  .project-text {
-    flex-grow: 0;
-  }
-
-  .project-image img {
-    width: 100%;
-    max-height: auto;
-    display: block;
-    border-radius: 12px;
-  }
-
-  .project-button {
-    margin-top: 20px;
-  }
-}
 
 /* SECTION 4: Contact */
 .contact-section {
@@ -342,23 +310,42 @@ nav .right a:hover {
   filter: brightness(0.9);
 }
 
-@media (max-width: 600px) {
-  /* NAVBAR */
-  nav {
-    padding: 0 20px;
+.cherryblossom {
+  justify-content: left;
+  margin-bottom: 100px
+}
+
+
+@media (max-width: 1080px) {
+  .card-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 100px;
   }
 
-  nav .right a {
-    font-size: 22px;
+  .project-card {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
   }
 
-  nav .right a:last-child {
-    background-color: transparent;
-    padding: 0;
+  .project-text {
+    flex-grow: 0;
   }
 
-  nav .right a span {
-    display: none;
+  .project-image img {
+    width: 100%;
+    max-height: auto;
+    display: block;
+    border-radius: 12px;
+  }
+
+  .project-button {
+    margin-top: 20px;
   }
 }
 
@@ -437,6 +424,3 @@ nav .right a:hover {
   color: var(--link-color);
 }
 
-.cherryblossom {
-  justify-content: left;
-}
