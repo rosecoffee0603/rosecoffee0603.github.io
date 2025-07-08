@@ -229,6 +229,7 @@ nav .right a:hover {
 
 .project-text p {
   flex-grow: 1; /* pushes the button to the bottom */
+  line-height: 1.5
 }
 
 .project-button {
