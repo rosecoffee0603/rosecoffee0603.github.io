@@ -78,6 +78,7 @@ nav .right a:hover {
 .hero-section .text {
   flex: 5;
   font-size: 17px;
+  line-height: 1.5
 }
 
 .hero-section .text h2 {
@@ -130,6 +131,7 @@ nav .right a:hover {
   text-align: center;
   margin-bottom: 15px;
   font-size: 17px;
+  line-height: 1.5
 }
 
 .skills-section .cells {
@@ -277,6 +279,7 @@ nav .right a:hover {
   flex: 3;
   margin-top: 10px;
   font-size: 17px;
+  line-height: 1.5
 }
 
 .contact-section .group form {
