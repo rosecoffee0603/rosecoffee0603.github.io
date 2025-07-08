@@ -16,8 +16,8 @@ I'm an Operations Analyst with experience solving business problems through data
 - Bilingual: Fluent in Mandarin, basic Japanese
 
 ## 🛠 Tech Stack
-- HTML, CSS, JavaScript (for this site)
-- Python, SQL, Excel, Power BI (for projects)
+- Python, SQL, Excel (for projects)
+- HTML, CSS
 - Font Awesome for icons
 
 ## 📁 Featured Projects
