@@ -435,3 +435,7 @@ nav .right a:hover {
 .fa-file-pdf {
   color: var(--link-color);
 }
+
+.cherryblossom {
+  justify-content: left;
+}
