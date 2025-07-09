@@ -54,12 +54,12 @@ nav .left a:hover {
 
 nav .right a {
   margin: 0 4px;
-  font-size: 20px
+  font-size: 20px;
 }
 
 nav .right a span {
   margin-left: 5px;
-  font-size: 20px
+  font-size: 20px;
 }
 
 nav .right a:hover {
@@ -79,12 +79,13 @@ nav .right a:hover {
 
 .hero-section .text {
   flex: 5;
-  font-size: 17px;
-  line-height: 1.5
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 .hero-section .text h2 {
   margin-bottom: 10px;
+  font-size: 25px;
 }
 
 .hero-section .text .links {
@@ -113,7 +114,7 @@ nav .right a:hover {
 }
 
 .hero-section .headshot img {
-  width: 250px;
+  width: 300px;
   border-radius: 50%;
 }
 
@@ -126,14 +127,14 @@ nav .right a:hover {
 .skills-section h2 {
   text-align: center;
   font-size: 25px;
-   margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .skills-section .text {
-  text-align: center;
+  text-align: left;
   margin-bottom: 15px;
-  font-size: 17px;
-  line-height: 1.5
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 .skills-section .cells {
@@ -168,7 +169,7 @@ nav .right a:hover {
 
 .skills-section .cells .cell span {
   margin-left: 5px;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 /* SECTION 3: PROJECTS */
@@ -231,7 +232,8 @@ nav .right a:hover {
 
 .project-text p {
   flex-grow: 1; /* pushes the button to the bottom */
-  line-height: 1.5
+  line-height: 1.5;
+  font-size: 17px;
 }
 
 .project-button {
@@ -262,7 +264,6 @@ nav .right a:hover {
   object-fit: cover;
 }
 
-
 /* SECTION 4: Contact */
 .contact-section {
   padding: 0 50px;
@@ -281,14 +282,15 @@ nav .right a:hover {
 .contact-section .group .text {
   flex: 3;
   margin-top: 10px;
-  font-size: 17px;
-  line-height: 1.5
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 .contact-section .group form {
   flex: 3;
   display: flex;
   flex-direction: column;
+  font-size: 19px;
 }
 
 .contact-section .group form input,
@@ -302,14 +304,16 @@ nav .right a:hover {
   resize: none;
   border-radius: 5px;
   background: #fff;
+  font-size: 17px;
 }
 
 .contact-section .group form button {
-  font-size: 16px;
-  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-family: "Libertinus Math", sans-serif;
   color: #fff;
   background-color: var(--link-color);
   border: none;
+  border-radius: 5px;
   height: 50px;
   cursor: pointer;
   transition: 0.1s;
@@ -318,11 +322,6 @@ nav .right a:hover {
 .contact-section .group form button:hover {
   filter: brightness(0.9);
 }
-
-.cherryblossom {
-  justify-content: left;
-}
-
 
 @media (max-width: 1080px) {
   .card-section {
@@ -360,11 +359,38 @@ nav .right a:hover {
 @media (max-width: 850px) {
   /* SECTION 1: Hero */
   .hero-section .text h2 {
-    font-size: 23px;
+    font-size: 24px;
   }
 
   .hero-section .text {
-    font-size: 16px;
+    font-size: 19px;
+  }
+
+  .hero-section .headshot img {
+    width: 280px;
+  }
+
+  /* SECTION 2: Skills */
+  .skills-section h2 {
+    font-size: 24px;
+  }
+
+  .skills-section .text {
+    font-size: 19px;
+  }
+
+  /* SECTION 3:   Projects */
+  .projects-section h2 {
+    font-size: 24px;
+  }
+
+  /* SECTION 3:   Projects */
+  .contact-section h2 {
+    font-size: 24px;
+  }
+
+  .contact-section .group .text {
+    font-size: 19px;
   }
 }
 
@@ -375,7 +401,7 @@ nav .right a:hover {
   }
 
   .hero-section .headshot img {
-    width: 235px;
+    width: 260px;
   }
 
   /* SECTION 4: Contact */
@@ -394,12 +420,6 @@ nav .right a:hover {
     font-size: 19px;
   }
 
-  nav .right a:last-child {
-    color: var(--text-color);
-    background-color: transparent;
-    padding: 0;
-  }
-
   nav .right a span {
     display: none;
   }
@@ -410,7 +430,8 @@ nav .right a:hover {
   }
 
   .hero-section .text {
-    text-align: center;
+    text-align: left;
+    font-size: 18px;
   }
 
   .hero-section .text h2 {
@@ -422,17 +443,37 @@ nav .right a:hover {
     padding: 0 20px;
   }
 
+  .skills-section h2 {
+    font-size: 23px;
+  }
+
+  .skills-section .text {
+    font-size: 18px;
+  }
+
   .skills-section .cells .cell span {
-    font-size: 15px;
+    font-size: 17px;
+  }
+
+  /* SECTION 3: Projects */
+  .projects-section h2 {
+    font-size: 23px;
   }
 
   /* SECTION 4: Contact */
   .contact-section {
     padding: 0 20px;
   }
+
+  .contact-section h2 {
+    font-size: 23px;
+  }
+
+  .contact-section .text {
+    font-size: 17px;
+  }
 }
 
 .fa-file-pdf {
   color: var(--link-color);
 }
-
